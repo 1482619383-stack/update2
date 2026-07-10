@@ -1,0 +1,23 @@
+﻿# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 大型数据文件（app 通过网页上传处理，不需要预置数据）
+*.xlsx
+
+# 独立脚本（非 Web 应用部分）
+update.py
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+Dockerfile
+.dockerignore
+*.tar

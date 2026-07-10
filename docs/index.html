@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自动化订单清洗系统</title>
+    <meta
+      name="description"
+      content="基于 Streamlit 的订单 Excel 自动清洗与映射系统，可通过 Streamlit Cloud 在线使用。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Streamlit Cloud 在线应用</p>
+        <h1>自动化订单清洗与映射系统</h1>
+        <p class="lead">
+          这是一个面向 Excel 订单数据的自动清洗工具，支持批量处理、字段映射、手机号归属地识别与结果导出。点击下方按钮即可在线使用，无需安装任何软件。
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://share.streamlit.io/1482619383-stack/update2/main/app.py" target="_blank" rel="noopener">🚀 打开在线应用</a>
+          <a class="btn btn-secondary" href="https://github.com/1482619383-stack/update2" target="_blank" rel="noopener">查看源代码</a>
+        </div>
+      </section>
+
+      <section class="card-grid">
+        <article class="card">
+          <h2>项目特点</h2>
+          <ul>
+            <li>上传 Excel 文件后自动清洗订单数据</li>
+            <li>完成年级、渠道、推广计划名称的自动映射</li>
+            <li>手机号归属地自动识别并分类</li>
+            <li>生成可直接上传的清洗后 Excel 文件</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>使用方法</h2>
+          <ul>
+            <li>点击上方"打开在线应用"进入 Streamlit 应用页面</li>
+            <li>上传从系统导出的订单 Excel 表格</li>
+            <li>点击"开始执行全自动清洗 SOP"按钮</li>
+            <li>处理完成后点击下载清洗结果文件</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
